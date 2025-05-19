@@ -1,0 +1,50 @@
+h1{
+ text-align: center;
+ margin-top: 60px;
+}
+#container {
+    width: 350px;
+    height: 500px;
+    border: 2px solid #000000ca;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#entervalue {
+    width: 99%;
+    height: 50px;
+    text-align: right;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#entervalue:hover{
+    border-color:  rgb(188, 129, 20) ;
+   
+}
+.click{
+color: white;
+background-color: black;
+}
+#operator{
+    background-color:rgb(125, 195, 21);
+}
+button{
+    margin: 13px;
+    padding: 16px;
+     font-size: 18px;
+    align-items: center;
+     border: 1px solid black;
+      border-radius: 10px;
+    font-weight: 900;
+}
+button:hover{
+    background-color:rgb(188, 129, 20) ;
+     font-weight: bold;
+}
